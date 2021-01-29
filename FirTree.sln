@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirTree", "FirTree\FirTree.csproj", "{290DB45F-179E-463B-8F4E-2B7080C2C9CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{290DB45F-179E-463B-8F4E-2B7080C2C9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290DB45F-179E-463B-8F4E-2B7080C2C9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290DB45F-179E-463B-8F4E-2B7080C2C9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290DB45F-179E-463B-8F4E-2B7080C2C9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68F5FC1C-E48B-4590-9622-16804B3EA8AA}
+	EndGlobalSection
+EndGlobal
