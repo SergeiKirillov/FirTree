@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FirTree"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="438" Width="303" AllowsTransparency="True" Background="WhiteSmoke" WindowStyle="None" ShowInTaskbar="False" Loaded="Window_Loaded" Activated="Window_Activated" MouseDown="Grid_MouseDown" MouseMove="Grid_MouseMove">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--<Image Name="image1" Stretch="Fill" Source="FirTree.png"  MouseDown="Image1_MouseDown" MouseMove="Image1_MouseMove"/>-->
+        <StackPanel Name="UncheckedTask" Grid.Column="0" Grid.Row="0">
+            <CheckBox Name="Task3" Content="Сделать" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" IsChecked="False"/>
+            <CheckBox Name="Task4" Content="Сделать" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" IsChecked="False"/>
+        </StackPanel>
+        <StackPanel Name="CheckedTask" Grid.Column="0" Grid.Row="1">
+            <CheckBox Name="Task1" Content="Завершен" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" IsChecked="True"/>
+            <CheckBox Name="Task2" Content="Завершен" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        </StackPanel>
+        <Button Grid.Column="0" Grid.Row="2">Добавить задачу</Button>
         
+
     </Grid>
 </Window>
